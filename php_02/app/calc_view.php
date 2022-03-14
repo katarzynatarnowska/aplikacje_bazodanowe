@@ -46,7 +46,7 @@ if (isset($messages)) {
 
 <?php if (isset($result)){ ?>
 <div style="margin-top: 1em; padding: 1em; border-radius: 0.5em; background-color: #ff0; width:25em;">
-<?php echo 'Wynik: '.$result; ?>
+<?php echo 'Wynik: '.round($result, 2); ?>
 </div>
 <?php } ?>
 
