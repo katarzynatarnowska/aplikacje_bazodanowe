@@ -23,7 +23,7 @@
 	<fieldset>
 		<label for="kwota">Kwota kredytu: </label>
 		<input id="kwota" type="text" name="k" value="<?php out($k) ?>" />
-		<label for="raty">Ilość rat: </label>									
+		<label for="raty">Okres (lata): </label>									
 		<input id="raty" type="text" name="r" value="<?php out($r) ?>" />
 		<label for="procent">Oprocentowanie: </label>							
 		<input id="procent" type="text" name="p" value="<?php out($p) ?>" />
@@ -54,3 +54,4 @@ if (isset($messages)) {
 
 </body>
 </html>
+(
