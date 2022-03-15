@@ -10,7 +10,7 @@
 <form action="<?php print(_APP_URL);?>/app/calc.php" method="post">
 	<label for="kwota">Kwota kredytu: </label>
 	<input id="kwota" type="text" name="k" value="<?php print($k); ?>" /><br />
-	<label for="raty">Ilość rat: </label>
+	<label for="raty">Okres (lata): </label>
 	<input id="raty" type="text" name="r" value="<?php print($r); ?>" /><br />
 	<label for="procent">Oprocentowanie: </label> 
 	<input id="procent" type="text" name="p" value="<?php print($p); ?>" />%<br />
