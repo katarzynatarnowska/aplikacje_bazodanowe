@@ -61,7 +61,7 @@ if (empty ( $messages )) { // gdy brak błędów
 	
 	//wykonanie operacji
 	
-			$result = ((($p/100)*$k)+$k)/$r;
+			$result = ((($p/100)*$k*$r)+$k)/($r*12);
 
 
 
