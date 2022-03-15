@@ -66,7 +66,7 @@ function process(&$k,&$r,&$p,&$messages,&$result){
 	$p = intval($p);
 	
 	//wykonanie operacji
-				$result = ((($p/100)*$k)+$k)/$r;
+			$result = ((($p/100)*$k*$r)+$k)/($r*12);
 }
 
 //definicja zmiennych kontrolera
