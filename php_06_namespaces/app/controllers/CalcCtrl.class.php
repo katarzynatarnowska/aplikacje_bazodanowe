@@ -114,3 +114,4 @@ class CalcCtrl {
 		getSmarty()->display('CalcView.tpl'); 
 	}
 }
+
